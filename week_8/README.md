@@ -1,0 +1,65 @@
+# 4. Food Delivery Receipt
+
+## 4.1 Purpose of the Application
+
+Food Delivery Receipt Generator is a Python application that simulates delivery system's backend process. It collects customer order details, calculates total, including service charge and delivery charge before finally displaying the receipt. The application shows how to use modules, functions, inputs and basic calculations while following a good software development practice
+
+
+---
+
+## 4.2 Tech Stack
+
+- Programming Language: Python
+- Development Environment: GitHub
+
+---
+
+### File Description
+
+| File | Description |
+|------|-------------|
+| `main.py` | Main program that runs the application and connects all modules. |
+| `customer.py` | Collects customer information and determine delivery charges. |
+| `receipt.py` | Calculates subtotal, service charge, grand total, and display the final receipt. |
+| `README.md` | Documentation of the project. |
+
+---
+
+## 4.3 How to Use
+
+1. Open the project in GitHub.
+2. Open the terminal.
+3. Navigate to the `week_8` folder.
+4. Run the program in main.py
+5. Enter the required information:
+   - Customer Name
+   - Food Ordered
+   - Quantity
+   - Price per Item
+   - Delivery (Y/N)
+6. The program will automatically calculate:
+   - Subtotal
+   - Service Charge (5%)
+   - Delivery Charge
+   - Grand Total
+7. The receipt will be displayed on the screen.
+
+---
+
+## Demonstration
+<video controls src="20260715-0728-29.6989245.mp4" title="Title"></video>
+
+## Features
+
+- Get customer order information
+- Calculates subtotal 
+- Calculates 5% service charge
+- Optional delivery charge
+- Displays formatted receipts
+
+---
+
+## Written by
+
+Carollisa A/P Wadiwill
+202107030008
