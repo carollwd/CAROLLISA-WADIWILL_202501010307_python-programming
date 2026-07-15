@@ -28,21 +28,20 @@ Food Delivery Receipt Generator is a Python application that simulates delivery 
 ## 4.3 How to Use
 
 1. Open the project in GitHub.
-2. Open the terminal.
-3. Navigate to the `week_8` folder.
-4. Run the program in main.py
-5. Enter the required information:
+2. Navigate to the `week_8` folder.
+3. Run the program in main.py
+4. Enter the required information:
    - Customer Name
    - Food Ordered
    - Quantity
    - Price per Item
    - Delivery (Y/N)
-6. The program will automatically calculate:
+5. The program will automatically calculate:
    - Subtotal
    - Service Charge (5%)
    - Delivery Charge
    - Grand Total
-7. The receipt will be displayed on the screen.
+6. The receipt will be displayed on the screen.
 
 ---
 
