@@ -47,7 +47,9 @@ Food Delivery Receipt Generator is a Python application that simulates delivery 
 ---
 
 ## Demonstration
-<video controls src="20260715-0728-29.6989245.mp4" title="Title"></video>
+<video controls src="ScreenRecording2026-07-15152911-ezgif.com-video-to-gif-converter.mp4" title="Title"></video>
+
+
 
 ## Features
 
