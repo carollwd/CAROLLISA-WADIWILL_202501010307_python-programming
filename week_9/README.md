@@ -45,4 +45,4 @@ python main.py
 
 
 ## Demonstration
-<video controls src="Screen Recording 2026-07-22 151556.mp4" title="Title"></video>
+![alt text](demo-video2.gif)
