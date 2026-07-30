@@ -5,17 +5,28 @@ def create_ticket():
     student_id = input("Student ID: ")
     issue = input("Issue: ")
     location = input("Location: ")
-    priority = input("Priority (High/Medium/Low): ")
 
-    if priority.lower() == "high":
-        technician = "Ahmad"
-    elif priority.lower() == "medium":
-        technician = "Siti"
-    else:
-        technician = "Ali"
+    # Validate priority
+    while True:
+        priority = input("Priority (High/Medium/Low): ").strip().lower()
+
+        if priority == "high":
+            technician = "Ahmad"
+            break
+        elif priority == "medium":
+            technician = "Siti"
+            break
+        elif priority == "low":
+            technician = "Ali"
+            break
+        else:
+            print("Invalid priority! Please enter High, Medium, or Low.")
+
+    # Optional: Capitalize priority for display
+    priority = priority.capitalize()
 
     status = "Pending"
-    
+
     return (
         name,
         student_id,
